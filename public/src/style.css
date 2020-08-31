@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+    flex-direction: column;
+}
+
+#tela {
+    width: 700px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    background: white;
+}
+
+h1 {
+    margin: 15px;
+}
+#lblMudaCor {
+    text-shadow: black 2px 2.5px;
+}
+
+label {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+input[type=color] {
+    padding: 0px;
+    border: none;
+    flex: 1;
+}
